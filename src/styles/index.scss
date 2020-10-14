@@ -17,10 +17,10 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.stick{
-    background-color: black;
+.palo{
     width: 15px;
     height: 150px;
+    background-color: black;
 }
 .traffic{
     display: flex;
@@ -28,23 +28,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     width: 130px;
     height: 350px;
     border-radius: 20px;
 }
-.redTraffic{
+.select1{
     background-color: red;
     width: 100px;
     height: 100px;
     border-radius: 100%;
 }
-.yellowTraffic{
+.select2{
     background-color: yellow;
     width: 100px;
     height: 100px;
     border-radius: 100%;
 }
-.greenTraffic{
+.select3{
     background-color: green;
     width: 100px;
     height: 100px;

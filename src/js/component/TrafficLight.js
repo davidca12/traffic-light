@@ -22,10 +22,10 @@ export class TrafficLight extends React.Component {
 
 		return (
 			<div className="container">
-				<div className="stick" />
+				<div className="palo" />
 				<div className="traffic">
 					<div
-						className={"redTraffic " + select1}
+						className={"select1 " + select1}
 						onClick={() =>
 							this.setState({
 								shine: "red"
@@ -33,7 +33,7 @@ export class TrafficLight extends React.Component {
 						}
 					/>
 					<div
-						className={"yellowTraffic " + select2}
+						className={"select2 " + select2}
 						onClick={() =>
 							this.setState({
 								shine: "yellow"
@@ -41,7 +41,7 @@ export class TrafficLight extends React.Component {
 						}
 					/>
 					<div
-						className={"greenTraffic " + select3}
+						className={"select3 " + select3}
 						onClick={() =>
 							this.setState({
 								shine: "green"
