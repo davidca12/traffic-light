@@ -1,0 +1,55 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stick{
+    background-color: black;
+    width: 15px;
+    height: 150px;
+}
+.traffic{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 350px;
+    border-radius: 20px;
+}
+.redTraffic{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.yellowTraffic{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.greenTraffic{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.selected{
+    box-shadow: 0px 0px 100px 40px white;
+}
